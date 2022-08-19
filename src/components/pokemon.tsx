@@ -94,7 +94,7 @@ export function Pokemon(props) {
         <View className="flex-row mt-4">
           <Text className="text-gray-500 text-md font-semibold">Abilities</Text>
           <Text className="text-gray-700 text-md font-bold ml-10">
-            {pokemon.abilities.join(', ')}
+            {pokemon.abilities.join(',')}
           </Text>
         </View>
       </View>
