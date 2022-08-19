@@ -16,13 +16,13 @@ export function Pokedex() {
   }, []);
   return (
     <View>
-      <Text>Pokedex</Text>
+      <Text className="text-gray-800 text-2xl ml-5 font-bold">Pokedex</Text>
 
       {!!pokemon && (
         <Pokemon pokemon={pokemon} onBack={() => setPokemon(undefined)} />
       )}
 
-      <View className="m-3">
+      <View className="">
         <FlatList
           data={pokemons}
           renderItem={({ item, index }) => (
