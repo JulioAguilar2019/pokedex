@@ -8,6 +8,7 @@ export default function App() {
   return (
     <TailwindProvider>
       <SafeAreaView className="flex-1">
+        <Pokedex />
 
         <StatusBar style="auto" />
       </SafeAreaView>
