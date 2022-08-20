@@ -33,7 +33,7 @@ export const PokemonList = () => {
     }
 
     async function getAllPokemons() {
-        const response = await api.get('/pokemon')
+        const response = await api.get('/pokemon/?limit=60')
         const { results } = response.data;
 
         const DataPokemons = await Promise.all(
