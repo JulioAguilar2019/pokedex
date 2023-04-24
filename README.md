@@ -22,7 +22,7 @@ Este proyecto es una aplicación Pokedex construida con Expo, React Native y Sty
 
 ```bash
 git clone https://github.com/JulioAguilar2019/pokedex.git
-cd pokedex-expo-react-native
+cd pokedex
 ```
 2. Instala las dependencias del proyecto:
 
