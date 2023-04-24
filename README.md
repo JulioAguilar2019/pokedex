@@ -23,27 +23,23 @@ Este proyecto es una aplicación Pokedex construida con Expo, React Native y Sty
 ```bash
 git clone https://github.com/JulioAguilar2019/pokedex.git
 cd pokedex-expo-react-native
-
+```
 2. Instala las dependencias del proyecto:
 
 ```bash
 yarn 
-
+```
 3. Inicia el proyecto con Expo:
 
 
 ```bash
 expo start
-
+```
 
 Esto abrirá una ventana en tu navegador con un panel de control de Expo y un código QR. Puedes escanear el código QR con la aplicación Expo Go en tu dispositivo móvil para probar la aplicación.
 
 ## Uso
 
-La aplicación muestra una lista de Pokémon con sus respectivos nombres e imágenes. Puedes buscar Pokémon por nombre o número usando la barra de búsqueda. Al seleccionar un Pokémon, se mostrará información detallada sobre sus características, habilidades y estadísticas.
-
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Por favor, crea un "Issue" en el repositorio para discutir tus ideas o reportar problemas. Si deseas contribuir con código, crea un "Pull Request" con tus cambios y nos pondremos en contacto contigo lo antes posible.
+La aplicación muestra una lista de Pokémon con sus respectivos nombres e imágenes. Al seleccionar un Pokémon, se mostrará información detallada sobre sus características, habilidades y estadísticas.
 
 
